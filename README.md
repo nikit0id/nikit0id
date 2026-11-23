@@ -13,7 +13,7 @@ DevOps-инженер. 2,5 года был единственным специа
 | [ansible-linux-baseline](https://github.com/nikit0id/ansible-linux-baseline) | Ansible-роли для Ubuntu (SSH-hardening, ufw, fail2ban, node_exporter), тесты Molecule |
 | [terraform-yc-infra](https://github.com/nikit0id/terraform-yc-infra) | Terraform-модули для Yandex Cloud: VPC, ВМ, DNS, remote state, plan в PR |
 | [pg-backup-toolkit](https://github.com/nikit0id/pg-backup-toolkit) | Бэкапы PostgreSQL с ротацией и **автоматической проверкой восстановления** |
-| [kubernetes-ops-lab](https://github.com/nikit0id/kubernetes-ops-lab) | K8s-лаба на kind (k3s в плане): Helm, ArgoCD (GitOps), ingress-nginx + cert-manager, kube-prometheus-stack; диагностика ImagePullBackOff и rollback |
+| [kubernetes-ops-lab](https://github.com/nikit0id/kubernetes-ops-lab) | Два стенда Kubernetes. В kind проверены Helm и Argo CD, диагностика ImagePullBackOff и rollback. В [k3s на трёх узлах](https://github.com/nikit0id/kubernetes-ops-lab/actions/runs/45196035552/job/137766758169) проверены DNS и HTTPS через ingress-nginx с cert-manager |
 
 Контакты: Telegram [@Helchion](https://t.me/Helchion) · nikitoid709@gmail.com
 
